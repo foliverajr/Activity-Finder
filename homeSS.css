@@ -1,0 +1,175 @@
+	  #map {
+         height: 100%;
+		 float: right;
+		 width: 86%;
+         margin: 0;
+         padding: 0;
+      }
+	  
+      html, body {
+         height: 100%;
+		 display: inline;
+      }
+	  
+	  #sidebar {
+		 height: 100%;
+		 width: 14%;
+		 position: fixed;
+		 z-index: 1;
+		 top: 0;
+		 left: 0;
+		 background-color: #783ac2;
+		 overflow-x: hidden;
+		 padding-top: 20px;
+	  }
+	  
+	  #sidebar a {
+		 padding: 10px 10px 10px 10px;
+		 font-size: 1.85vw;
+		 color: white;
+		 display: block;
+		 font-family: sans-serif;
+		 text-decoration: none;
+		 text-align: center;
+	  }
+
+	  #sidebar a:hover {
+		 color: lightblue;
+	  }
+
+	  #newEvent {
+		 margin-top: 60px;
+	  }
+	  
+	  #floating-panel {
+		 position: absolute;
+		 z-index: 1;
+		 top: 10;
+		 right: 30%;
+         font-family: 'Roboto','sans-serif';
+		 width: 30%;
+		 white-space: nowrap;
+      }
+	  
+	  #floating-panel2 {
+		 position: absolute;
+		 z-index: 1;
+		 top: 10;
+		 right: 30%;
+         font-family: 'Roboto','sans-serif';
+		 width: 100%;
+		 white-space: nowrap;
+      }
+	  
+	  #submit, #submitEvent {
+		 background-color: #381E58;
+		 border-radius: 20px;
+		 color: white;
+		 padding: 8px;
+		 border: none;
+		 cursor: pointer;
+		 width: 20%;
+		 font-size: 15px;
+	   }
+	   
+	   #submit:hover, #submitEvent:hover{
+		 opacity: 0.8;
+	   }
+	   
+	   #logoSmall{
+	    position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		max-height: 100%;
+		max-width: 100%;
+		margin-bottom: 25px;
+	   }
+
+	   #address {
+		 width: 80%;
+		 background-color: #EDE7F4;
+		 padding: 8px;
+		 border: 1px solid #ccc;
+		 border-radius: 15px;
+		 text-align: left;
+		 font-size: 20px;
+	   }
+	   
+	   .overlay{
+		 height: 100%;
+		 width: 0;
+		 position: fixed;
+		 z-index: 1;
+		 top: 0;
+		 left: 0;
+		 background-color: rgb(0,0,0);
+		 background-color: rgba(0,0,0, 0.4);
+		 overflow-x: hidden;
+		 transition: 0.5s;
+		}
+		
+		.overlay .closebtn {
+		 position: absolute;
+		 top: 20px;
+		 right: 45px;
+		 font-size: 60px;
+		}
+		
+		input[type=text] {
+			width: 90%;
+			padding: 15px;
+			margin: 5px 0 22px 0;
+			display: inline-block;
+			border: none;
+			background: #f1f1f1;
+			border-radius: 20px;
+		}
+		
+		label {
+			font-family: sans-serif;
+			padding: 18px;
+		}
+
+		input[type=text]:focus {
+			background-color: #dfe1e8;
+			outline: none;
+		}
+
+		button, input[type=submit], input[type=button] {
+			background-color: #381E58;
+			border-radius: 25px;
+			color: white;
+			padding: 10px 10px;
+			margin: 4px 0;
+			border: none;
+			cursor: pointer;
+			width: 20%;
+			font-size: 20px;
+		}
+
+		button:hover {
+			opacity: 0.8;
+		}
+		
+		.overall-container {
+			text-align: left;
+			padding: 18px;
+			background-color: white;
+			border-radius: 25px;
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 40%;
+		}
+		
+		.container {
+			text-align: left;
+			background-color: white;
+			border-radius: 25px;
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 40%;
+		}

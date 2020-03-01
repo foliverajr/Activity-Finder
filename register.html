@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create a New Account</title>
+        <link rel="stylesheet" href="loginSS.css">
+    </head>
+    
+    <body>
+        <div id="overall" class="overall-container">   
+                
+                <div class="text-container">
+                    <label for="text" style="font-size:20pt;">To get started, please select which type of account you wish to open.</label>
+    
+                    <div class="btn-container" style="padding: 15px 15px">
+                        <button onclick="change_page('register-business.php')" style="font-size: 22px; width: 35%">Business</button>  
+                    </div>
+                    <div>
+                        <button onclick="change_page('register-individual.php')" style="font-size: 22px; width: 35%">Individual</button> 
+                    </div>
+         </div>
+            
+            <div id="test"></div>
+            
+            <script>
+                function change_page(location) {
+                    window.location.href = location;
+                }
+            </script>
+    </body>
+</html>
